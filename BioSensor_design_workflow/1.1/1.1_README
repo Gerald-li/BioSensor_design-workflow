@@ -1,0 +1,3 @@
+##get ligand conformations
+## for this example, users can test by execute 'sh 1.1_design_ligand_prep.sh' in this directory.
+python 1.1_design_ligand_prep.py E4P.mol2  ##E4P.mol2 is a parameter that can be changed by user
