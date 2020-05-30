@@ -1,0 +1,23 @@
+Arguments and Options:
+           Input: 'E4P_ligprep.mae'
+          Output: 'E4P_ligprep-out.maegz'
+   Configuration: '/home/zhonghua/programs/Schrodinger_2018/mmshare-v4.1/bin/Linux-x86_64/../../data/fast3d/default.json'
+         Library: '/home/zhonghua/programs/Schrodinger_2018/mmshare-v4.1/bin/Linux-x86_64/../../data/fast3d/fragments.f3d'
+          Stereo: 1 (from properties, geometry)
+        Optimize: false
+  Vary Nitrogens: true
+ Drop properties: false
+Drop problematic: false
+Problematic file: 'E4P_ligprep-failed.maegz'
+
+Desired number of conformers: 0 (use settings from the configuration file)
+Maximum number of conformers: 100
+     Auto-increase threshold: 9
+
+1 structures processed
+0 structures failed
+69 structures stored (69.0000 conformers per input structure)
+
+Initialization time: 0.0293 seconds
+       Working time: 0.0223 seconds
+              Speed: 19.3806 input structures per second

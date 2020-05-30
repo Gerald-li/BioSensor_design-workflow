@@ -1,0 +1,114 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ E4P 
+  E4P.mae 
+  1
+  41011
+  1
+  7_R_12_8_1_15 
+  8_R_11_9_7_16 
+  0
+  OPLS_2005 
+  -3.97064316737245
+  1
+  E4P-1 
+  2
+ m_depend[3] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[21] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_SpecifiedChirality
+  :::
+  1 3 -0.362796 -0.368490 -0.699496 1 2 0.15290 0.15290 "ABC " " C1 " 6 A0A0A0  "C1"  <>
+  2 16 -1.002409 0.875861 -0.936689 1 70 -0.46110 -0.46110 "ABC " " O4 " 8 FF2F2F  "O4"  <>
+  3 107 -1.781191 1.686869 0.239443 1 15 1.23070 1.23070 "ABC " " P1 " 15 8E236B  "P1"  <>
+  4 16 -0.584610 2.517236 0.953513 1 70 -0.56820 -0.56820 "ABC " " O1 " 8 FF2F2F  "O1"  <>
+  5 15 -2.636949 0.868564 1.143415 1 70 -0.66610 -0.66610 "ABC " " O2 " 8 FF2F2F  "O2"  <>
+  6 16 -2.548559 2.846774 -0.593958 1 70 -0.56820 -0.56820 "ABC " " O3 " 8 FF2F2F  "O3"  <>
+  7 3 0.895360 -0.228819 0.190834 1 2 0.20500 0.20500 "ABC " " C2 " 6 A0A0A0  "C2"  1
+  8 3 1.966240 -1.317172 -0.092454 1 2 0.20500 0.20500 "ABC " " C3 " 6 A0A0A0  "C3"  1
+  9 2 3.213685 -1.208084 0.793292 1 2 0.45000 0.45000 "ABC " " C4 " 6 A0A0A0  "C4"  <>
+  10 15 3.570149 -0.138414 1.286159 1 70 -0.45000 -0.45000 "ABC " " O5 " 8 FF2F2F  "O5"  <>
+  11 16 2.393049 -1.229801 -1.437371 1 70 -0.68300 -0.68300 "ABC " " O7 " 8 FF2F2F  "O7"  <>
+  12 16 0.470048 -0.363110 1.535489 1 70 -0.68300 -0.68300 "ABC " " O6 " 8 FF2F2F  "O6"  <>
+  13 41 -0.095893 -0.746424 -1.685725 1 21 0.06000 0.06000 "ABC " " H11" 1 FFFFFF  "H11"  <>
+  14 41 -1.070144 -1.090414 -0.287744 1 21 0.06000 0.06000 "ABC " " H12" 1 FFFFFF  "H12"  <>
+  15 41 1.333737 0.759753 0.046127 1 21 0.06000 0.06000 "ABC " " H2 " 1 FFFFFF  "H2"  <>
+  16 41 1.528519 -2.304246 0.059469 1 21 0.06000 0.06000 "ABC " " H3 " 1 FFFFFF  "H3"  <>
+  17 41 3.755919 -2.141600 0.944335 1 21 0.00000 0.00000 "ABC " " H4 " 1 FFFFFF  "H4"  <>
+  18 42 2.948437 -1.970860 -1.625555 1 21 0.41800 0.41800 "ABC " " HO7" 1 FFFFFF  "HO7"  <>
+  19 42 1.208237 -0.198237 2.102686 1 21 0.41800 0.41800 "ABC " " HO6" 1 FFFFFF  "HO6"  <>
+  20 42 0.270776 2.326652 0.601457 1 21 0.38000 0.38000 "ABC " " HO1" 1 FFFFFF  "HO1"  <>
+  21 42 -3.472413 2.898843 -0.403254 1 21 0.38000 0.38000 "ABC " "    " 1 FFFFFF  ""  <>
+  :::
+ } 
+ m_bond[20] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 7 1
+  3 1 13 1
+  4 1 14 1
+  5 2 3 1
+  6 3 4 1
+  7 3 5 2
+  8 3 6 1
+  9 4 20 1
+  10 6 21 1
+  11 7 8 1
+  12 7 12 1
+  13 7 15 1
+  14 8 9 1
+  15 8 11 1
+  16 8 16 1
+  17 9 10 2
+  18 9 17 1
+  19 11 18 1
+  20 12 19 1
+  :::
+ } 
+} 
+
