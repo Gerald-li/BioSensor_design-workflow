@@ -1,0 +1,6 @@
+-s inputs/1D6N_A68K_G102K_F35L_renumber_prep_chainA.pdb inputs/1D6N_A68K_G102K_F35L_renumber_prep_chainA_216_PRP.pdb
+-ignore_unrecognized_res #ignore unrecognized residues and ligands
+-grid_delta 0.5  # grid spacing, more information see ROSETTA software about match grid setting
+-grid_lig_cutoff 4.0 # cutoff from ligand
+-grid_bb_cutoff 2.25 # cutoff from backbone
+-grid_active_res_cutoff 5.0 # residues around defined ligand within 'defined length' will be written in a .pos file, more information see ROSETTA software about pos file
