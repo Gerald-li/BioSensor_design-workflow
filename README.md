@@ -9,9 +9,12 @@ These works are very important for researchers to understand their own biosensor
 （2）Understand the possible binding modes and positions of molecules and proteins 
 (refer to the binding modes of ligands and proteins in protein crystals, such as hydrogen bonds, salt bridges, etc.)
 
-（3）A renumber pdb file needed beause we need a Constraint_Type file in match and design processes. 
+（3）Protein preparation is recommend, including delete redundancy ligands, water and ions, fill in missing side chains, fill in missing loops, etc.
+
+（4）A renumber pdb file needed beause we need a Constraint_Type file in match and design processes. 
 
 Generally speaking, the Constraint_Type will contain a type, defining what sort of value to be constrained (distance, angle, dihedral, etc), and a series of atom and/or residue labels defining a specific quality to be constrained. Residue numbers are assumed to be in Rosetta numbering (from 1, no gaps), not PDB numbering. (more information in https://www.rosettacommons.org/manuals/archive/rosetta3.5_user_guide/de/d50/constraint_file.html)
+
 
 ### The first step：
 （1）Get the conformations of the ligand. （see biosensor_design_workflow/1.1/1.1_README）
