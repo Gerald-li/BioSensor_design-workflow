@@ -1,0 +1,4 @@
+
+req all_cst value < 10.0
+req SR_2_interf_E_1_2 value < -5.0
+output sortmin total_score
