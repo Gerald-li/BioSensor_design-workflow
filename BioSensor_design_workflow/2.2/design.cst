@@ -1,0 +1,24 @@
+# cst constraint descriptior for 1D6N_A68K_G102K_F35L_renumber
+
+
+# NOTE
+
+
+# block 1 for residue 216 PRP and residue 131 ASP
+
+CST::BEGIN
+  TEMPLATE::   ATOM_MAP: 1 atom_type: OH
+  TEMPLATE::   ATOM_MAP: 1 residue3: ABC
+
+  TEMPLATE::   ATOM_MAP: 2 atom_name: OD2 CG CB 
+  TEMPLATE::   ATOM_MAP: 2 residue3: ASP
+
+  CONSTRAINT:: distanceAB:   2.59 0.20 100.0   0    
+  CONSTRAINT::    angle_A:   87.3 10.0 60.0  360.0 
+  CONSTRAINT::    angle_B:  111.8 10.0 60.0  360.0 
+  CONSTRAINT::  torsion_A:  159.3 10.0 60.0  360.0 
+  CONSTRAINT:: torsion_AB: -160.0 10.0 60.0  360.0 
+  CONSTRAINT::  torsion_B: -131.3 10.0 60.0  360.0 
+CST::END
+
+

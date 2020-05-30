@@ -1,0 +1,31 @@
+#-s MATCH_RESULTS.pdb
+-extra_res_fa design_ABC.params
+#-resfile <name of resfile>
+
+-enzdes
+ -detect_design_interface
+ -cut1 6.0         #designable
+ -cut2 8.0         #designable
+ -cut3 10.0        #repackable
+ -cut4 12.0        #repackable
+ -cst_opt
+ -bb_min
+ -chi_min
+
+ -cst_design
+ -design_min_cycles 2
+ -lig_packer_weight 1.8
+ -cst_min
+
+ -cstfile design.cst
+-packing:ex1
+-packing:ex2  
+-packing:use_input_sc  
+-packing:soft_rep_design
+-packing:linmem_ig 10
+
+#-out:file:o enz_score_ABC.out
+-final_repack_without_ligand
+-nstruct 5
+
+-parser_read_cloud_pdb   #read cloud format PDB for enzdes in rosetta scripts
