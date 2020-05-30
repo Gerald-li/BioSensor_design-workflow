@@ -1,5 +1,5 @@
 # BioSensor_design workflow
-This is a manual for BioSensor_design workflow script and an example
+This is a manual for BioSensor_design workflow script and an example.
 ## Three steps for BioSensor_design workflow：
 Before the first step, we need to carry out simple pre-processing of protein and have a detailed understanding of the protein. 
 These works are very important for researchers to understand their own biosensor system and successful design
@@ -36,4 +36,4 @@ Generally speaking, the Constraint_Type will contain a type, defining what sort 
 （二）**ROSETTA software**，(https://www.rosettacommons.org/) The Rosetta software suite includes algorithms for computational modeling and analysis of protein structures. 
 It has enabled notable scientific advances in computational biology, including de novo protein design, enzyme design, ligand docking, and structure prediction of biological macromolecules and macromolecular complexes.
  
-（三）**Pymol software**，PyMOL's website（ https://pymol.org/2/ ）。PyMOL is an open source molecular visualization system created by Warren Lyford DeLano.
+（三）**Pymol software**，PyMOL's website (https://pymol.org/2/). PyMOL is an open source molecular visualization system created by Warren Lyford DeLano.
