@@ -6,7 +6,7 @@ These works are very important for researchers to understand their own biosensor
 #### pre-processing：
 （1）Get the PDB structure of the protein (you can search and download it on the PDB bank website http://www.rcsb.org/ )
 
-（2）Understand the possible binding modes and positions of molecules and proteins 
+（2）Proposing the possible binding modes and positions of molecules and proteins 
 (refer to the binding modes of ligands and proteins in protein crystals, such as hydrogen bonds, salt bridges, etc.)
 
 （3）Protein preparation is recommend, including delete redundancy ligands, water and ions, fill in missing side chains, fill in missing loops, etc.
