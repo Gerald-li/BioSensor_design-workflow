@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-##atteations
+##attentions
 ##all the parameters in this step scripts need to be replaced according to each project
 ##according to match result and copy some match result to this directory used to design
 #for example:
